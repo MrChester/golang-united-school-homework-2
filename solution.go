@@ -7,9 +7,9 @@ type sidesNumInt int
 
 // Define constants to represent 0, 3 and 4 sides.  Test uses mnemos: SidesTriangle(==3), SidesSquare(==4), SidesCircle(==0)
 // it's like:
-const SidesTriangle = 3
-const SidesSquare = 4
-const SidesCircle = 0
+const SidesTriangle sidesNumInt = 3
+const SidesSquare sidesNumInt = 4
+const SidesCircle sidesNumInt = 0
 
 // CalcSquare(10.0, SidesTriangle)
 // CalcSquare(10.0, SidesSquare)
